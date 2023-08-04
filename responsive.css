@@ -1,0 +1,237 @@
+@media (min-width: 320px) and (max-width:550px) {
+    #page1{
+        width: 100%;
+        height: 115vh;
+    }
+    .page1-responsive{
+        display: block;
+    }
+    .page1-desktop{
+        display: none;
+    }
+    #nav{
+        height: 15vh;
+        padding: 0 10%;
+        /* background-color: aqua; */
+    }
+    #nav a{
+        font-size: 1.6vmax;
+    }
+
+    /* // page 2  */
+    #page2{
+        height: 100vh;
+    }#page2 video{
+        width: 100%;
+    }
+    #page2 img{
+        width: 12%;
+    }
+    #page2 p{
+        font-size: 2vmax;
+    }
+    #page2 a{
+        font-size: 2vmax;
+    }
+    /* // page 3 */
+    #page3{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .page3-card{
+        padding: 2%;
+        width: 100%;
+        height: 30vh;
+        gap: 5px;
+    }
+    .page3-card video{
+        width: 100%;
+        height: 25vh;
+        /* background-color: rgb(255, 238, 238); */
+    }
+    .page3-card img{
+        width: 20%;
+    }
+    .page3-card div{
+    width: 100%;
+    height: 5vh;
+    }
+    .page3-card p{
+        font-size: 1.8vmax;
+    }
+    .page3-card h2{
+        font-size: 2.5vmax;
+    }
+
+    /* // page 4  */
+    #page4{
+        width: 100%;
+        height: 120vh;
+    }
+    #page4 h1{
+        font-size: 10vmax;
+        margin-top: 10%;
+        width: 90%;
+    }
+    .page4-bottom{
+        width: 100%;
+        height: 80vh;
+        bottom: -10%;
+    }
+    .page4-card{
+        width: 28vw;
+        height: 90%;
+    }
+    .page4-center-card{
+        top: 10%;
+    }
+    .page4-img{
+        width: 100%;
+        height: 70%;
+
+    }
+    .page4-img img{
+        height: 120%;
+    }
+    .page4-containt{
+        padding-top: 10px;
+    }
+    .page4-containt p{
+        font-size: 1.5vmax;
+        width: 100%;
+    }
+    .page4-containt p span{
+        font-size: 1.8vmax;
+    }
+
+    /* // page 5  */
+    #page5{
+        height: 30vh;
+    }
+    #page5 .page5-left-slide h1,#page5 .page5-right-slide h1{
+        font-size: 5vmax;
+    }
+    #page5 .page5-left-slide .line,#page5 .page5-right-slide .line{
+        height: 30px;
+    }
+
+    
+    /* // page 6  */
+    #page6{
+        height: 70vh;
+    }
+    .page6-top{
+        height: 60vh;
+        padding-left: 10%;
+        padding-top: 20%;
+    }
+    .page6-top h1{
+        font-size: 4.5vmax;
+        width: 90%;
+        text-align: center;
+    }
+    .page6-bottom{
+        width: 100%;
+        height: 40vh;
+        flex-wrap: nowrap;
+        right: -30vw;
+        overflow: hidden;
+
+    }
+    .page6-card{
+        width: 45%;
+        height: 100%;
+        flex-shrink: 0;
+    }
+    .page6-card img{
+        width: 100%;
+        height: 100%;
+    }
+    .page6-card .page6-cover{
+        padding: 10px;
+        padding-top: 95%;
+        gap: 5px;
+    }
+    .page6-cover a{
+        font-size: 1.3vmax;
+        width: 100%;
+    }
+    .page6-cover h2{
+        font-size: 2vmax;
+        font-family: as3;
+    }
+    .page6-cover div img{
+        width: 45px;
+        object-fit: contain;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .page6-cover div p{
+        -webkit-line-clamp: 3;
+        font-size: 1.3vmax;
+    }
+
+    /* // page  7  */
+    #page7{
+        width: 100%;
+        height: 90vh;
+    }
+    .page7-top{
+        width: 100%;
+        height: 25%;
+        gap: 20px;
+    }
+    .page7-top h1{
+        font-size: 6vmax;
+        width: 100vw;
+        text-align: center;
+        letter-spacing: 0px;
+    }
+    #page7 .email{
+        font-size: 2vmax;
+    }
+    .link{
+        display: flex;
+        padding: 5px 0;
+    }
+    .link a{
+        font-size: 1.8vmax;
+    }
+    .office{
+        font-size: 2.8vmax;
+        padding: 10px 0;
+    }
+    .headquarter{
+        font-size: 2vmax;
+        padding: 5px 0;
+    }.phone{
+        font-size: 2vmax;
+        padding: 5px 0;
+    }
+    .proud{
+        font-size:1.8vmax;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .proud::after{
+        width: 30%;
+        left: 67%;
+    }.proud::before{
+        width: 30%;
+        left: 3.5%;
+    }
+    .img7{
+        gap: 25px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .img7 img{
+        width: 25%;
+    }
+    .privacy{
+        font-size: 2.2vmax;
+    }
+
+}
